@@ -41,6 +41,8 @@ void loop() {
 
     byte  quality  = lidar.getCurrentPoint().quality;   //quality of current measurement
     
+    // perform data processing here...
+    
     // Output the specified angle data
     if(angle > 0 and angle < 360 ){
       Serial.print(angle);
